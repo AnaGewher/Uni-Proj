@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Rajdhani:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.Barra-de-desconto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.nav .Barra-de-desconto {
+    position: fixed;
+    top: 0;
+}
+
+
+.Cabecalho {
+    background-color: #7F257F;
+    width: 100%;
+}
+
+.Cabecalho-content {
+    max-width:  1200px;
+    margin: 0 auto;
+}
+
+.Cabecalho-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1500px;
+}
+
+.Cabecalho-menu img {
+    background-color: #7F257F;
+    mix-blend-mode: multiply; 
+    width: 107px;
+    height: 90px;
+}
+
+.Conteudo {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    gap: 1rem;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.Conteudo img {
+    width: 1200px;
+    height: 505px;  
+
+}
+
+.Conteudo .Titulo {
+    text-align: center;
+    padding-bottom: 1rem;
+    width: 100% ;
+    border-bottom: 1px solid #000;
+}
+.Conteudo p{
+    font-size: xx-large;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+
+.Nome {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.Nome h1 {
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+}
+
+.Navegacao {
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
+    font-family:'Anton', sans-serif ;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.Ass:hover {
+    color: aliceblue;
+}
+
+.Drin:hover {
+    color: aliceblue;
+}
+
+.Login:hover {
+    color: aliceblue;
+}
+
+.Carrinho:hover {
+    color: aliceblue;
+}
+
+
+.Drink2 { 
+    width: 60px;
+    height: 60px;
+}
+
+.Drink4 {
+    width: 60px;
+    height: 60px;
+}
+
+.Info-Ass {
+    max-width:  1200px;
+    height: 300px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 6rem;
+    font-size: 1rem;
+    align-items: flex-start;
+}
+
+.Assinatura {
+    padding-top: 1rem;
+    width: fit-content;
+    gap: 3rem;
+    right: 1 rem;
+}
+
+.Desc {
+    border-top: 1px solid #000;
+    gap: 2rem;
+    font-size: 1rem;
+}
+
+.Cont-Drin2 {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.Cont-Ass1 {
+   border-radius: 6px;
+    box-shadow: 6px 6px 6px #888;
+}
+
+.Cont-Ass2 {
+    border-radius: 6px;
+    box-shadow: 6px 6px 6px #888;
+}
+
+
+.Icone-Foto {
+    display: flex;
+    flex-direction: column;
+    width: 47px;
+    height: 49px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.Titulo-Classico {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.Titulo-Festa {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.Informacoes {
+    max-width:  1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1rem;
+    align-items: flex-start;
+    padding-top: 100px;
+    
+}
+
+.Informacoes h2 { 
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;    
+
+    
+}
+
+.Info-Ass {
+    padding-top: 100px;
+    gap: 5rem;
+}
+
+.Fundadores { 
+    margin: 1rem;
+    margin-right: 10rem;
+    display: flex;
+    flex-direction: column;
+    gap: 100px
+}
+
+.Fotos {
+    display: flex;
+    flex-direction: column;
+    left: 1400px;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: #FFFF;
+    mix-blend-mode: multiply;
+}
+
+.Bem-vindo {
+    text-align: start;
+    padding-top: 1rem;
+    width: 100% ;
+    border-top: 1px solid #000;
+    gap: 3rem;
+}
+
+a:visited { 
+    color: #000;
+
+}
+
+.Dividoria-New {
+    font-family: 'Anton', sans-serif;
+}
+
+.Info-Ass h2 {        
+    font-family: 'Oswald', sans-serif;
+}
+
+.Drink {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-height: auto;
+    max-width: fit-content;
+    margin-left: 600px;
+    margin-right: 600px;
+}
+
+
+
+.Frutasv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: 100px;
+}
+
+.Frutasv img {
+    display: flex;
+    align-items: center;
+    width: 381px;
+    height: 390px;
+}
+
+
+
+.Botao {
+    display: flex;
+    flex-direction: column;
+    width: 228px;
+    align-items: center;
+    height: 40px;
+    gap: 3rem;
+    margin-top: 1px;
+    font-family:;
+    
+}
+
+.Drink button {
+    background-color: #82D814;
+    border: none;
+    padding: 40px;
+    cursor: pointer;
+    transition: background .3s;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    width: 228px;
+    align-items: center;
+    height: 38px;
+    gap: 4rem;
+    margin-top: 1px;
+    font-family: 'Rajdhani', bold;
+    font-size: xx-large;
+    padding-top: 15px;
+    
+}
+
+
+
+.Drink p {
+    padding-bottom: 4rem;
+    font-family: 'Rajdhani';
+}
+
+
+.Drink button:hover {
+    background-color: #68a01e;
+    font-family: 'Rajdhani', bold;
+    font-size: xx-large;
+
+}
+
+
+
+
+
